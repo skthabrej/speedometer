@@ -1,0 +1,61 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("https://i.ibb.co/d6k54g3/Toyota-Corolla-2016-speedometer.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.paragraph {
+    font-weight: bold;
+    font-size: 23px;
+    font-style: bold;
+    font-family: "Bahnschrift";
+    color: red;
+    font-family: "Lucida Console";
+}
+
+.count-style {
+    color: rgb(58, 196, 255);
+    font-style: italic;
+}
+
+.min-max-paragraph {
+    color: aliceblue;
+    font-weight: bold;
+    font-family:'Lucida Sans';
+}
+
+.buttons {
+    display: flex;
+    margin: 15px;
+    margin-bottom: 15px;
+}
+
+.accelrate-button {
+    margin-right: 20px;
+    background-color: gold;
+    color: white;
+    border-color: white;
+    border-radius: 7px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.brake-button {
+    margin-left: 20px;
+    background-color: rgb(66, 228, 228);
+    border-radius: 7px;
+    color: whitesmoke;
+    padding: 8px;
+    border-color: white;
+    font-weight: bold;
+
+}
+
+.limits-style {
+    color: red;
+    font-size: medium;
+}
